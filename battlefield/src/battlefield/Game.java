@@ -17,9 +17,9 @@ public class Game {
     public void game() {
         inputNames();
         createFleetsPlayers();
-        createFleet(player1);
-        /*createFleet(player2);
-        chooseFirstMove();*/
+        /*createFleet(player1);
+        createFleet(player2);*/
+        chooseFirstMove();
         while (true) {
             if (player1.isHasTurn()) {
                 gameProcess(player1, player2);
